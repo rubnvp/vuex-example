@@ -1,6 +1,6 @@
 # pokemon-app
 
-A Vue.js demo with Vuex.
+A Vue.js demo with Vuex, from the talk [Vuex, ¿para qué sirve? ¿lo necesito?](https://www.youtube.com/watch?v=gJUA_XNdh0I) (Spanish) in the Meetup VueJS Madrid.
 
 ![screensot demo](screenshot.png "Screenshot Demo")
 
