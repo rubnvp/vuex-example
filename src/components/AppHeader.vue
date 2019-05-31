@@ -25,7 +25,6 @@
 </template>
 
 <script>
-import { mapGetters, mapActions } from 'vuex';
 import { POKEMON_TYPE } from '@/store/constants';
 
 export default {
@@ -34,24 +33,26 @@ export default {
             newPokemon: {
                 type: POKEMON_TYPE.FIRE,
                 typeOptions: [
-                {value: POKEMON_TYPE.FIRE, label: 'Fire'},
-                {value: POKEMON_TYPE.PLANT, label: 'Plant'},
-                {value: POKEMON_TYPE.WATER, label: 'Water'},
+                    {value: POKEMON_TYPE.FIRE, label: 'Fire'},
+                    {value: POKEMON_TYPE.PLANT, label: 'Plant'},
+                    {value: POKEMON_TYPE.WATER, label: 'Water'},
                 ],
                 name: '',
             },
+            rankings: [
+                {type: POKEMON_TYPE.PLANT, value: 10},
+                {type: POKEMON_TYPE.FIRE, value: 20},
+                {type: POKEMON_TYPE.WATER, value: 0},
+            ]
         };
     },
-    computed: {
-        ...mapGetters([
-            'rankings',
-        ]),
-    },
     methods: {
-        ...mapActions([
-            'resetPokemons',
-            'addPokemon',
-        ]),
+        resetPokemons() {
+
+        },
+        addPokemon() {
+
+        },
     },
 }
 </script>

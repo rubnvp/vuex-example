@@ -18,27 +18,30 @@
 </template>
 
 <script>
-import { mapGetters, mapActions } from 'vuex';
-
 import AppHeader from './components/AppHeader';
 import PokemonCard from './components/PokemonCard.vue';
 
 export default {
   name: 'app',
   data () {
-    return {};
-  },
-  computed: {
-    ...mapGetters([
-      'pokemonsList',
-    ]),
+    return {
+      pokemonsList: [
+        {"type":"FIRE","name":"charmy","life":100,"attack":10,"dying":false},
+        {"type":"PLANT","name":"planty","life":54,"attack":8,"dying":false},
+        {"type":"WATER","name":"tortly","life":90,"attack":12,"dying":false}
+      ],
+    };
   },
   methods: {
-    ...mapActions([
-      'resetPokemons',
-      'attackPokemon',
-      'removePokemon',
-    ]),
+    resetPokemons() {
+
+    },
+    attackPokemon() {
+
+    },
+    removePokemon() {
+
+    },
     pokemonListAttack(pokemonSrc, targetIndex) {
       if (targetIndex < 0) targetIndex = this.pokemonsList.length - 1;
       if (targetIndex > this.pokemonsList.length - 1) targetIndex = 0;
