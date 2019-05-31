@@ -256,7 +256,7 @@ body {
 	border-radius: 2em 2em 0 0;
 	position: absolute;
 	top: 9em;
-  	left: 9.5em;
+	left: 9.5em;
 	z-index: 30;
 }
 
@@ -289,8 +289,8 @@ body {
 	width: 2.5em;
 	height: 2.5em;
 	overflow: hidden;
-  	border-bottom-right-radius: 50%;
- 	border-bottom-left-radius: 50%; 
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%; 
 	border-top-left-radius: 50%;
 	-webkit-transform:rotate(-45deg);
 	background-color: #FFB800;
@@ -462,8 +462,8 @@ body {
 	width: 11em;
 	height: 11em;
 	overflow: hidden;
-  	border-bottom-right-radius: 50%;
- 	border-bottom-left-radius: 50%; 
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%; 
 	border-top-left-radius: 50%;
 	-webkit-transform:rotate(-45deg);
 	background-color: #6aac34;
@@ -520,7 +520,7 @@ body {
 	width: 1.5em;
 	height: 1.5em;
 	top: 1.25em;
-  	left: 8em;
+	left: 8em;
 }
 
 .spot2 {

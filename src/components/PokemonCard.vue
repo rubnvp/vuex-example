@@ -6,8 +6,8 @@
     <div>life: {{ pokemon.life }}</div>
     <div>attack: {{ pokemon.attack }}</div>
     <div class="attack-buttons">
-        <button @click="leftClick"> <- </button>
-        <button @click="rightClick"> -> </button>
+        <button @click="leftClick"> &lt;- </button>
+        <button @click="rightClick"> -&gt; </button>
     </div>
 </div>
 </template>

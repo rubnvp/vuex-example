@@ -4,16 +4,30 @@ A Vue.js demo with Vuex, from the talk [Vuex, ¿para qué sirve? ¿lo necesito?]
 
 ![screensot demo](screenshot.png "Screenshot Demo")
 
-## Build Setup
-
-This project has been created with the [vue-cli](https://github.com/vuejs/vue-cli) and the template webpack-simple.
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
+## Project setup
+```
+yarn install
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### Compiles and hot-reloads for development
+```
+yarn run serve
+```
+
+### Compiles and minifies for production
+```
+yarn run build
+```
+
+### Run your tests
+```
+yarn run test
+```
+
+### Lints and fixes files
+```
+yarn run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
